@@ -390,7 +390,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 1:
@@ -404,7 +404,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 2:
@@ -418,7 +418,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 3:
@@ -432,7 +432,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 4:
@@ -446,7 +446,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 5:
@@ -460,7 +460,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 6:
@@ -474,7 +474,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 7:
@@ -488,7 +488,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 	
 	case 8:
@@ -502,7 +502,7 @@ void printHangman(int const count)
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 9:
@@ -516,7 +516,7 @@ void printHangman(int const count)
 		cout << "|       / \\     " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 
 	case 10:
@@ -530,7 +530,7 @@ void printHangman(int const count)
 		cout << "|       / \\     " << endl;
 		cout << "|     _/   \\_   " << endl;
 		cout << "|                " << endl;
-		cout << "|________________" << endl;
+		cout << "|________________" << endl<<endl;
 		break;
 	}
 
@@ -541,7 +541,6 @@ void introScreen()
 	cout << "Welcome to Hangman Game ver 1.00." << endl;
 	cout << "Made by Saad Farooq" << endl;
 	printHangman(triesAllowed);
-	cout << endl;
 	cout << "Press any Key to start the game";
 	char key=_getch();
 	if (key == '&')

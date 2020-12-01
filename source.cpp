@@ -16,7 +16,7 @@ char backupAlpbhabets[] = { 'A', 'B', 'C',
 			   'P', 'Q', 'R',
 			   'S', 'T', 'U',
 			   'V', 'W', 'X',
-			   'Y', 'Z','\0'
+			   'Y', 'Z', '\0'
 			  };
 
 vector<string> listOfWords= { 

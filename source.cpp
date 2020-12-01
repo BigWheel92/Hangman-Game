@@ -9,14 +9,15 @@ using namespace std;
 
 ///Global Variables
 char backupAlpbhabets[] = { 'A', 'B', 'C',
-					'D', 'E', 'F',
-					'G', 'H', 'I',
-					'J', 'K', 'L',
-					'M', 'N', 'O',
-					'P', 'Q', 'R',
-					'S', 'T', 'U',
-					'V', 'W', 'X',
-					'Y', 'Z','\0'};
+			   'D', 'E', 'F',
+			   'G', 'H', 'I',
+			   'J', 'K', 'L',
+			   'M', 'N', 'O',
+			   'P', 'Q', 'R',
+			   'S', 'T', 'U',
+			   'V', 'W', 'X',
+			   'Y', 'Z','\0'
+			  };
 
 vector<string> listOfWords= { 
 "abruptly",
@@ -231,7 +232,9 @@ vector<string> listOfWords= {
 "zilch",
 "zipper",
 "zodiac",
-"zombie" };
+"zombie"
+};
+
 int triesAllowed = 10;
 bool cheatMode = false;
 //end of global variables

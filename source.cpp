@@ -484,7 +484,7 @@ void printHangman(int const count)
 		cout << "|        |       " << endl;
 		cout << "|      /|||\\    " << endl;
 		cout << "|    _/ ||| \\_  " << endl;
-		cout << "|		          " << endl;
+		cout << "|		  " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;
 		cout << "|                " << endl;

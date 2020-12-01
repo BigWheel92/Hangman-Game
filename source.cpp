@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-#include <windows.h>
+#include <chrono>
+#include <thread>
 #include <string>
 #include <vector>
 #include <time.h>
@@ -264,7 +265,7 @@ int main()
 		{
 			system("cls");
 			cout << word;
-			Sleep(1000);
+			this_thread::sleep_for(chrono::milliseconds(1000));
 		}
 		
 		bool printAgain = true;
@@ -357,7 +358,7 @@ int main()
 			{
 					cout << word[i]<<" ";
 			}
-			Sleep(1000);
+			this_thread::sleep_for(chrono::milliseconds(1000));
 		}
 
 		//user has won the game

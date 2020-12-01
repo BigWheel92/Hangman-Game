@@ -18,7 +18,8 @@ char backupAlpbhabets[] = { 'A', 'B', 'C',
 					'V', 'W', 'X',
 					'Y', 'Z','\0'};
 
-vector<string> listOfWords= { "abruptly",
+vector<string> listOfWords= { 
+"abruptly",
 "absurd",
 "abyss",
 "affix",
@@ -348,7 +349,7 @@ int main()
 			printHangman(noOfFailures);
 			cout << "The correct word was: " << word << endl;
 		}
-	      //user has correctly identified the current word.
+	        //user has correctly identified the current word.
 		else if (correctlyGuessedCharacterCount == word.length())
 		{
 			system("cls");
